@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "title": "PawsMemory",
+    "description": "Find the purr-fect pairs!"
+  },
+  "game": {
+    "title": "Cat Memory Game",
+    "subtitle": "Find the purr-fect pairs!",
+    "moves": "Moves",
+    "pairs": "Pairs Found",
+    "turn": "Turn",
+    "newGame": "New Game",
+    "victory": "Purr-fect! You found all cat pairs!",
+    "gameOver": "Game Over! No more moves left.",
+    "actionLog": "Action Log",
+    "powersGuide": "Cat Powers Guide",
+    "clickToReveal": "Click to reveal",
+    "messages": {
+      "start": "Find all cat pairs! Each cat has special powers.",
+      "victory": "🎉 Purr-fect! You found all cat pairs!",
+      "gameOver": "💔 Game Over! No more moves left.",
+      "noMatchedToReturn": "No matched pairs to return!",
+      "noPowersUsedYet": "No powers have been used yet!",
+      "powerCannotBeReused": "This power cannot be reused!"
+    }
+  },
+  "logs": {
+    "gameStarted": "Game started! Good luck finding all the cats!",
+    "victory": "🎉 Victory! All cats have been found!",
+    "gameOver": "💔 Game over - ran out of moves",
+    "shuffleBoard": "🥒 Purr-plexer shuffled the board!",
+    "laserNoPairs": "🔴 Paws-sible tried to activate but no pairs available",
+    "laserReturnedPair": "🔴 Paws-sible returned {cat} pair to the board!",
+    "gentleNoPowersYet": "🐾 Re-paws tried to activate but no powers were used yet",
+    "gentleCannotReactivate": "🐾 Re-paws cannot reactivate {cat}",
+    "gentleReactivated": {
+      "cucumber": "🐾 Re-paws reactivated Purr-plexer!",
+      "death": "🐾 Re-paws reactivated Cat-astrophe (+{moves} moves)!",
+      "maneki": "🐾 Re-paws reactivated Lucky-paws (+{moves} move)!",
+      "laser": "🐾 Re-paws reactivated Paws-sible!",
+      "baker": "🐾 Re-paws reactivated Whisk-ers! Next card goes to oven."
+    },
+    "whiskersNextCardOven": "👨‍🍳 Whisk-ers activated! Next card will go to the oven.",
+    "catastropheExtraMoves": "💀 Cat-astrophe grants +{moves} extra moves!",
+    "luckyPawsExtraMove": "🐱 Lucky-paws grants +{moves} extra move!",
+    "revealed": "Revealed {cat}",
+    "foundPair": "✅ Found {cat} pair!",
+    "mismatch": "❌ {a} and {b} don't match",
+    "copy": {
+      "copied": "📋 Mew-two copied {cat}'s power!",
+      "nothing": "📋 Mew-two had nothing to copy!"
+    },
+    "lazy": {
+      "sleepingAttempt": "😴 Cat-atonic is still sleeping... (attempt {attempt}/{max})",
+      "wokeUp": "😴 Cat-atonic finally woke up!",
+      "needsAnotherAttempt": "😴 Cat-atonic needs another attempt to wake up"
+    },
+    "oven": {
+      "stillBaking": "👨‍🍳 Card is still baking in the oven ({turnsLeft} turns left)",
+      "ready": "👨‍🍳 Card finished baking and is ready!",
+      "sent": "👨‍🍳 Card sent to the oven for 2 turns!"
+    },
+    "romeo": {
+      "revealed": "💕 Purr-omeo revealed! Find the pair next turn or both will leave!",
+      "left": "💕 Purr-omeo cats left due to romantic disappointment!",
+      "pairFound": "💕 Purr-omeo pair found! Romance prevails!"
+    }
+  },
+  "cats": {
+    "purr-plexer": "Purr-plexer",
+    "cat-atonic": "Cat-atonic",
+    "whisk-ers": "Whisk-ers",
+    "paws-sible": "Paws-sible",
+    "mew-two": "Mew-two",
+    "cat-astrophe": "Cat-astrophe",
+    "purr-omeo": "Purr-omeo",
+    "lucky-paws": "Lucky-paws",
+    "paw-some": "Paw-some",
+    "re-paws": "Re-paws"
+  },
+  "powers": {
+    "cucumber": "Shuffles the board.",
+    "lazy": "Skips the next turn.",
+    "baker": "Bakes a card for 2 turns.",
+    "laser": "Choose and zap a card.",
+    "copy": "Duplicates a revealed card.",
+    "death": "Resets one matched pair.",
+    "romeo": "Reveals the pair of a chosen card.",
+    "maneki": "Reveals a lucky hint.",
+    "normal": "No special power.",
+    "gentle": "Flip one extra card."
+  }
+}

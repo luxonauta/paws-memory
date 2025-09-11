@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "title": "PawsMemory",
+    "description": "Encontre os pares purr-feitos!"
+  },
+  "game": {
+    "title": "Jogo da Memória dos Gatos",
+    "subtitle": "Encontre os pares purr-feitos!",
+    "moves": "Jogadas",
+    "pairs": "Pares Encontrados",
+    "turn": "Vez",
+    "newGame": "Novo Jogo",
+    "victory": "Purr-feito! Você encontrou todos os pares!",
+    "gameOver": "Fim de jogo! Sem mais jogadas.",
+    "actionLog": "Registro de Ações",
+    "powersGuide": "Guia de Poderes dos Gatos",
+    "clickToReveal": "Clique para revelar",
+    "messages": {
+      "start": "Encontre todos os pares de gatos! Cada gato tem poderes especiais.",
+      "victory": "🎉 Purr-feito! Você encontrou todos os pares!",
+      "gameOver": "💔 Fim de jogo! Sem mais jogadas.",
+      "noMatchedToReturn": "Não há pares formados para retornar!",
+      "noPowersUsedYet": "Nenhum poder foi usado ainda!",
+      "powerCannotBeReused": "Este poder não pode ser reutilizado!"
+    }
+  },
+  "logs": {
+    "gameStarted": "Jogo iniciado! Boa sorte encontrando todos os gatos!",
+    "victory": "🎉 Vitória! Todos os gatos foram encontrados!",
+    "gameOver": "💔 Fim de jogo — você ficou sem jogadas",
+    "shuffleBoard": "🥒 Gato-fuso embaralhou o tabuleiro!",
+    "laserNoPairs": "🔴 Miau-laser tentou ativar, mas não há pares disponíveis",
+    "laserReturnedPair": "🔴 Miau-laser devolveu o par {cat} ao tabuleiro!",
+    "gentleNoPowersYet": "🐾 Re-miau tentou ativar, mas nenhum poder foi usado ainda",
+    "gentleCannotReactivate": "🐾 Re-miau não pode reativar {cat}",
+    "gentleReactivated": {
+      "cucumber": "🐾 Re-miau reativou Gato-fuso!",
+      "death": "🐾 Re-miau reativou Gata-clismo (+{moves} jogadas)!",
+      "maneki": "🐾 Re-miau reativou Sorte-felina (+{moves} jogada)!",
+      "laser": "🐾 Re-miau reativou Miau-laser!",
+      "baker": "🐾 Re-miau reativou Miau-chef! A próxima carta vai ao forno."
+    },
+    "whiskersNextCardOven": "👨‍🍳 Miau-chef ativado! A próxima carta irá para o forno.",
+    "catastropheExtraMoves": "💀 Gata-clismo concede +{moves} jogadas extras!",
+    "luckyPawsExtraMove": "🐱 Sorte-felina concede +{moves} jogada extra!",
+    "revealed": "{cat} revelado",
+    "foundPair": "✅ Par de {cat} encontrado!",
+    "mismatch": "❌ {a} e {b} não são um par",
+    "copy": {
+      "copied": "📋 Miau-clone copiou o poder de {cat}!",
+      "nothing": "📋 Miau-clone não tinha nada para copiar!"
+    },
+    "lazy": {
+      "sleepingAttempt": "😴 Sono-miau ainda está dormindo... (tentativa {attempt}/{max})",
+      "wokeUp": "😴 Sono-miau finalmente acordou!",
+      "needsAnotherAttempt": "😴 Sono-miau precisa de outra tentativa para acordar"
+    },
+    "oven": {
+      "stillBaking": "👨‍🍳 A carta ainda está assando no forno ({turnsLeft} turnos restantes)",
+      "ready": "👨‍🍳 A carta terminou de assar e está pronta!",
+      "sent": "👨‍🍳 Carta enviada ao forno por 2 turnos!"
+    },
+    "romeo": {
+      "revealed": "💕 Miau-meu revelado! Encontre o par no próximo turno ou ambos irão embora!",
+      "left": "💕 Os Miau-meu foram embora por decepção amorosa!",
+      "pairFound": "💕 Par de Miau-meu encontrado! O romance venceu!"
+    }
+  },
+  "cats": {
+    "purr-plexer": "Gato-fuso",
+    "cat-atonic": "Sono-miau",
+    "whisk-ers": "Miau-chef",
+    "paws-sible": "Miau-laser",
+    "mew-two": "Miau-clone",
+    "cat-astrophe": "Gata-clismo",
+    "purr-omeo": "Miau-meu",
+    "lucky-paws": "Sorte-felina",
+    "paw-some": "Miau-ravilha",
+    "re-paws": "Re-miau"
+  },
+  "powers": {
+    "cucumber": "Embaralha o tabuleiro.",
+    "lazy": "Pula a próxima vez.",
+    "baker": "Coloca uma carta no forno por 2 turnos.",
+    "laser": "Escolhe e acerta uma carta.",
+    "copy": "Duplica uma carta revelada.",
+    "death": "Reseta um par formado.",
+    "romeo": "Revela o par de uma carta escolhida.",
+    "maneki": "Mostra uma dica de sorte.",
+    "normal": "Sem poder especial.",
+    "gentle": "Vire uma carta extra."
+  }
+}
